@@ -26,7 +26,9 @@ def getCVE(html): #对读取的网页源代码使用正则表达式进行筛选
 global keywd
 
 def getKWD(html): #关键词词频统计，统计网页中keywd出现次数，（每出现一次，就记录一次）
-    KWDlist = re.findall(keywd,html)
+    reg = r'/\b<em>cve-2016-\b\d{1,4}\b</em>\b'
+    KWDs = re.compile(reg)
+    KWDlist = re.findall(KWDs,html)
     return KWDlist
 
 if __name__=='__main__':
