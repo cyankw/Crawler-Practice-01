@@ -1,0 +1,44 @@
+C:\Python35\python3.exe "C:/Users/lenovo-df/Python-code/Vulnerabilities Detector - v2.py"
+Vulnerabilities Detector Started
+[]
+[[]]
+0 CVE-2016-2077 1 simple
+[]
+[[]]
+1 CVE-2016-2298 1 simple
+[]
+[[]]
+2 CVE-2016-1662 1 simple
+[]
+[[]]
+3 CVE-2016-2297 1 simple
+[]
+[[]]
+4 CVE-2016-2196 1 simple
+[]
+[[]]
+5 CVE-2016-1580 1 simple
+[]
+[[]]
+6 CVE-2016-2099 1 simple
+[]
+[[]]
+7 CVE-2016-4101 1 simple
+[]
+[[]]
+8 CVE-2016-4103 1 simple
+[]
+[[]]
+9 CVE-2016-4104 1 simple
+[]
+[[]]
+10 CVE-2016-4105 1 simple
+[]
+[[]]
+11 CVE-2016-4107 1 simple
+------------------------------------
+Vulnerabilities Detect Completed
+program running time 11.228615s
+We detected 12 targets, 0 of them is valuable
+
+Process finished with exit code 0
